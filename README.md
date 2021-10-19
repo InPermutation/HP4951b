@@ -62,7 +62,7 @@ Handwritten `2645`. The bus connector has a handwritten `CW` on it.
 
 
 ### MEMORY
-This board appears to have the program ROM and 56KB of RAM, plus the keyboard interface chip has an additional 1KB of RAM. I haven't actually tried booting without it, but I'm pretty sure it will cause the machine to not boot. The 16-pin keyboard connector is cable-tied to this board.
+This board appears to have the program ROM and 56KB of RAM, plus the keyboard interface chip has an additional 1KB of RAM. It is necessary to boot the machine.
 
 ![MEMORY](https://user-images.githubusercontent.com/1096993/137967119-1db385e5-5f80-40a7-a869-91e027e16003.jpg)
 
@@ -71,6 +71,8 @@ Big ICs:
 * National Semiconductor NSC810AN-4I RAM-IO-TIMER (incl. 1K RAM)
 * 4 EPROMs: `04951-10024 12 11 85`, `04951-10022 12 10 85`, `04951-10021 12 09 85`, `04951-10023 12 10 85`
 * 7 x HM6264LP-15 8KB static RAM
+
+The 16-pin keyboard connector is cable-tied to this board.
 
 There is a NiCd battery in a plastic case. There is corrosion on the leads near this battery, so I need to remove it!
 
