@@ -22,6 +22,12 @@ REV C#########?
 
 I can also see `062585` in the bottom right. There is a hand-written `DB2645` on the top connector.
 
+There is a sticker on the back that says:
+```
+04951-60020
+A-2528-38
+```
+
 Big ICs:
 * NEC D80C39C microcontroller ([appears to be](https://www.cpu-world.com/CPUs/8039/index.html) based on [Intel MCS-48](https://en.wikipedia.org/wiki/Intel_MCS-48))
 * National Semiconductor NSC810AN-4I RAM-IO-TIMER (incl. 1K RAM)
@@ -69,6 +75,41 @@ Big ICs:
 There is a NiCd battery in a plastic case. There is corrosion on the leads near this battery, so I need to remove it!
 
 There is also a large piezo buzzer.
+
+Board Art:
+```
+REV A-2346-38 MADE IN U.S.A.
+     MEMORY BD  04951-60002
+```
+`[(hp)] 88809L`
+
+There is a sticker on the back:
+```
+04951-60019
+A-2528-38
+```
+
+The bus connector has a handwritten `CW` on it.
+
+### MAIN
+This board is at the bottom of the case. It is underneath the CRT and contains power supply components, so I haven't removed it.
+
+![MAIN](https://user-images.githubusercontent.com/1096993/137968544-07ffc799-c23a-4168-ac02-969f92c52af6.jpg)
+
+Big ICs:
+* 2 EPROMs, `04951-10006 CHAR ROM 2`, `04951-10005 CHAR ROM 1`
+* HM6116LP-4 2KB static RAM
+* HM6264LP-15 8KB static RAM
+* National Semiconductor 1820-3436, aka NSC800N-4 [Z80-compatible microprocessor](https://www.cpu-world.com/CPUs/NSC800/index.html)
+* Motorola SC80708P 1820-2853 aka MC68A45P [Cathode Ray Tube Controller](https://en.wikipedia.org/wiki/Motorola_6845) (CRTC)
+* Zilog 1820-3515 aka Z8530ACS [Serial Communication Controller](https://en.wikipedia.org/wiki/Zilog_SCC) (SCC)
+* Siemens TDA 4700A Control IC for Single-Ended and Push-Pull Switched-Mode Power Supplies (SMPS)
+
+Sticker:
+```
+04951-60018
+A-2528-38
+```
 
 ## Resources
 
