@@ -96,6 +96,8 @@ This board is at the bottom of the case. It is underneath the CRT and contains p
 
 ![MAIN](https://user-images.githubusercontent.com/1096993/137968544-07ffc799-c23a-4168-ac02-969f92c52af6.jpg)
 
+It has a 3.064 MHz crystal.
+
 Big ICs:
 * 2 EPROMs, `04951-10006 CHAR ROM 2`, `04951-10005 CHAR ROM 1`
 * HM6116LP-4 2KB static RAM
@@ -114,4 +116,4 @@ A-2528-38
 ## Resources
 
 * [HP Bench Briefs MAY-JUNE 1984](http://hparchive.com/Bench_Briefs/HP-Bench-Briefs-1984-05-06.pdf) has an article, **Replacement Parts Cross Reference**, which helps you decode mystery HP part numbers (like 1820-1779) into "generic type" part numbers (like MC14411P) which you can actually find datasheets for.
-* [HP 4951B operating and service manual](https://archive.org/details/hp4951b) is actually for the ***HP 4951A***, a not-identical but very similar machine.
+* The Internet Archives' [HP 4951B operating and service manual](https://archive.org/details/hp4951b) is actually for the ***HP 4951A***, a not-identical but very similar machine.
