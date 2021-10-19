@@ -29,7 +29,8 @@ Big ICs:
 * Motorola 1820-2232, aka MC14034BCP "8-Bit Universal Bus Register"
 
 ### REMOTE
-This board communicates with the `REMOTE / PRINTER` DE-25 (DB-25) connector on the back of the machine.
+This board communicates with the `REMOTE / PRINTER` DE-25 (DB-25) connector on the back of the machine. It is not necessary to boot the machine, though the remote test functionality as well as the BNC video output will fail, of course. (And, presumably, the actual remote+printer functionality.)
+
 ![REMOTE](https://user-images.githubusercontent.com/1096993/137965411-dafeb3fa-a093-4a56-9e34-9a81d6ffa3c6.jpg)
 
 It has a 1.8432 MHz crystal.
