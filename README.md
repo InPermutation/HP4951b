@@ -24,7 +24,7 @@ I can also see `062585` in the bottom right. There is a hand-written `DB2645` on
 
 Big ICs:
 * NEC D80C39C microcontroller ([appears to be](https://www.cpu-world.com/CPUs/8039/index.html) based on [Intel MCS-48](https://en.wikipedia.org/wiki/Intel_MCS-48))
-* National Semiconductor NSC810AN-4I RAM-IO-TIMER
+* National Semiconductor NSC810AN-4I RAM-IO-TIMER (incl. 1K RAM)
 * 3 EPROMs: `04951-10027 12 11 85`, `04951-10008 TAPE SM 1`, `04951-10009 TAPE SM 2`. *TODO: dump these.*
 * Motorola 1820-2232, aka MC14034BCP "8-Bit Universal Bus Register"
 
@@ -53,6 +53,20 @@ REV A-2512-38
 090485
 ```
 Handwritten `2645`. The bus connector has a handwritten `CW` on it.
+
+
+### MEMORY
+This board appears to have the program ROM and 56KB of RAM, plus the keyboard interface chip has an additional 1KB of RAM. I haven't actually tried booting without it, but I'm pretty sure it will cause the machine to not boot.
+
+![MEMORY](https://user-images.githubusercontent.com/1096993/137967119-1db385e5-5f80-40a7-a869-91e027e16003.jpg)
+
+Big ICs:
+
+* National Semiconductor NSC810AN-4I RAM-IO-TIMER (incl. 1K RAM)
+* 4 EPROMs: `04951-10024 12 11 85`, `04951-10022 12 10 85`, `04951-10021 12 09 85`, `04951-10023 12 10 85`
+* 7 x HM6264LP-15 8KB static RAM
+
+There is a NiCd battery in a plastic case. There is corrosion on the leads near this battery, so I need to remove it!
 
 ## Resources
 
