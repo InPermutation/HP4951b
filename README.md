@@ -10,6 +10,8 @@ This board communicates with the tape device. It is not necessary to boot the ma
 
 ![TAPE](https://user-images.githubusercontent.com/1096993/137963014-741b4ec4-fa6f-4760-84c7-4abb1266f7bc.jpg)
 
+It has a 6.000000 MHz crystal.
+
 The board art, unfortunately, is buried under the tape header. What I can read is:
 
 ```
@@ -25,6 +27,31 @@ Big ICs:
 * National Semiconductor NSC810AN-4I RAM-IO-TIMER
 * 3 EPROMs: `04951-10027 12 11 85`, `04951-10008 TAPE SM 1`, `04951-10009 TAPE SM 2`. *TODO: dump these.*
 * Motorola 1820-2232, aka MC14034BCP "8-Bit Universal Bus Register"
+
+### REMOTE
+This board communicates with the `REMOTE / PRINTER` DE-25 (DB-25) connector on the back of the machine.
+![REMOTE](https://user-images.githubusercontent.com/1096993/137965411-dafeb3fa-a093-4a56-9e34-9a81d6ffa3c6.jpg)
+
+It has a 1.8432 MHz crystal.
+
+Big ICs:
+  * Motorola 1820-1779, aka MC14411P Bit Rate Generator
+  * Hitachi HD6350P Asynchronous Communications Interface Adapter (ACIA)
+
+The green wire at the bottom of the photo is the BNC composite video signal.
+
+Board Art:
+
+```
+04951-60017
+REV A-2512-38
+   MADE IN
+    U.S.A.
+   [(hp)]
+88809F
+090485
+```
+Handwritten `2645`. The bus connector has a handwritten `CW` on it.
 
 ## Resources
 
