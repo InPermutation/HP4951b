@@ -31,7 +31,7 @@ A-2528-38
 Big ICs:
 * NEC D80C39C microcontroller ([appears to be](https://www.cpu-world.com/CPUs/8039/index.html) based on [Intel MCS-48](https://en.wikipedia.org/wiki/Intel_MCS-48))
 * National Semiconductor NSC810AN-4I RAM-IO-TIMER (incl. 1K RAM)
-* 3 EPROMs: `04951-10027 12 11 85`, `04951-10008 TAPE SM 1`, `04951-10009 TAPE SM 2`. *TODO: dump these.*
+* 3 EPROMs: [`04951-10027 12 11 85`](EPROMs/04951-10027%2012%2011%2085), [`04951-10008 TAPE SM 1`](EPROMs/04951-10008%20TAPE%20SM%201), [`04951-10009 TAPE SM 2`](EPROMs/04951-10009%20TAPE%20SM%202)
 * Motorola 1820-2232, aka MC14034BCP "8-Bit Universal Bus Register"
 
 ### REMOTE
@@ -69,7 +69,7 @@ This board appears to have the program ROM and 56KB of RAM, plus the keyboard in
 Big ICs:
 
 * National Semiconductor NSC810AN-4I RAM-IO-TIMER (incl. 1K RAM)
-* 4 EPROMs: `04951-10024 12 11 85`, `04951-10022 12 10 85`, `04951-10021 12 09 85`, `04951-10023 12 10 85`
+* 4 EPROMs: [`04951-10024 12 11 85`](EPROMs/04951-10024%2012%2011%2085), [`04951-10022 12 10 85`](EPROMs/04951-10022%2012%2010%2085), [`04951-10021 12 09 85`](EPROMs/04951-10021%2012%2009%2085), [`04951-10023 12 10 85`](EPROMs/04951-10023%2012%2010%2085)
 * 7 x HM6264LP-15 8KB static RAM
 
 The 16-pin keyboard connector is cable-tied to this board.
@@ -101,7 +101,7 @@ This board is at the bottom of the case. It is underneath the CRT and contains p
 It has a 3.064 MHz crystal.
 
 Big ICs:
-* 2 EPROMs, `04951-10006 CHAR ROM 2`, `04951-10005 CHAR ROM 1`
+* 2 EPROMs, `04951-10006 CHAR ROM 2`, `04951-10005 CHAR ROM 1`. *TODO: dump these.*
 * HM6116LP-4 2KB static RAM
 * HM6264LP-15 8KB static RAM
 * National Semiconductor 1820-3436, aka NSC800N-4 [Z80-compatible microprocessor](https://www.cpu-world.com/CPUs/NSC800/index.html)
