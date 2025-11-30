@@ -101,7 +101,7 @@ This board is at the bottom of the case. It is underneath the CRT and contains p
 It has a 3.064 MHz crystal.
 
 Big ICs:
-* 2 EPROMs, `04951-10006 CHAR ROM 2`, `04951-10005 CHAR ROM 1`. *TODO: dump these.*
+* 2 EPROMs, [`04951-10006 CHAR ROM 2`](EPROMs/04951-10006%20CHAR%20ROM%202), [`04951-10005 CHAR ROM 1`](EPROMs/04951-10005%20CHAR%20ROM%201).
 * HM6116LP-4 2KB static RAM
 * HM6264LP-15 8KB static RAM
 * National Semiconductor 1820-3436, aka NSC800N-4 [Z80-compatible microprocessor](https://www.cpu-world.com/CPUs/NSC800/index.html)
